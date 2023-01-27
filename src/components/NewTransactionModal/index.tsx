@@ -38,7 +38,7 @@ export function NewTransactionModal({ closeModal }: NewTransactionModalProps) {
       resolver: zodResolver(createNewTransactionFormSchema),
       defaultValues: {
         description: '',
-        value: undefined,
+        value: 0,
         category: '',
         type: undefined,
       },
