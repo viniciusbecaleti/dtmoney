@@ -21,7 +21,7 @@ export function Home() {
   const { loadingTransacations, transactions, deleteTransactionById } =
     useContext(TransacionsContext)
 
-  function handleDeleteTransaction(id: string) {
+  function handleDeleteTransaction(id: number) {
     deleteTransactionById(id)
   }
 
